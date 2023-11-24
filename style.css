@@ -1,0 +1,15 @@
+
+
+ #foto{
+    height: 300px;
+    width: 300px;
+     border-radius: 150px;
+     background-size: cover;
+     background-position: 50%;
+     margin: 20px;
+}
+
+#camera{
+    width: 640px;
+    margin: 20px
+} 
