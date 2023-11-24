@@ -6,9 +6,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 <body>
+    <div class="menina">
+        <img src="menininha.png" alt="" class="menininha">
+    
+            <img src="logo.png" alt="" class="logo">
+        
+    </div>
+    
+    <form class="form">
+        <span class="title">Você realmente gostou do projeto</span>
+        <span class="sub mb">Cadastre-se para ter acesso as novidades da nossa organozação :)</span>
+       <input id="file" type="file">
+     
+          <input type="text" class="input" placeholder="nome">
+          <input type="email" class="input" placeholder="email">
+          <input type="senha" class="input" placeholder="senha"> 
+        <span class="sub">Já tem uma conta ? <a href="#">Entrar</a></span>
+          <button>Registro</button>
+      </form>
     <video id="camera" autoplay></video>
     <div id="foto"></div>
-    <button onclick="abrirCamera()">Abrir Camera</button>
+    <button class="botao-camera" onclick="abrirCamera()"><img src="camera.png" alt="" class="cmr"></button>
     <button onclick="tirarFoto()">Tirar Foto</button>
     <button onclick="fechar()">Fechar Camera</button>
 

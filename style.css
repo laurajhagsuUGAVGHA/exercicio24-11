@@ -1,4 +1,84 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+   
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 100px 100px 80px rgba(0, 0, 0, 0.03);
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+  
+  .title {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  
+  .sub {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .sub.mb {
+    margin-bottom: 1px;
+  }
+  
+  .sub a {
+    color: #f4c60dbd;
+  }
+  
+  .avatar {
+    height: 50px;
+    width: 50px;
+    background-color: #d6be66bd;
+    border-radius: 50%;
+    align-self: center;
+    padding: 6px;
+    cursor: pointer;
+    box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.015),100px 100px 80px rgba(0, 0, 0, 0.03);
+  }
+  
+  .form button {
+    align-self: flex-end;
+  }
+  
+  .input, button {
+    border: none;
+    outline: none;
+    width: 380px;
+    padding: 16px 10px;
+    background-color: rgb(247, 243, 243);
+    border-radius: 10px;
+    box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.015),100px 100px 80px rgba(0, 0, 0, 0.03);
+  }
+  
+ .menininha{
+    margin-left: 100px;
 
+ }
+  button {
+    margin-top: 12px;
+    background-color: #FFE485BD;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+ 
+  .input:focus {
+    border: 1px solid #FFE485BD;
+  }
+  
+  #file {
+    display: none;
+  }
 
  #foto{
     height: 300px;
@@ -13,3 +93,7 @@
     width: 640px;
     margin: 20px
 } 
+.cmr{
+    width: 40px;
+
+}
